@@ -1,0 +1,33 @@
+.top_text{
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 15%;
+    width: 100%;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.bottom_text{
+    text-align: center;
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    bottom: 15%;
+    width:100%;
+    text-transform: uppercase;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.Meme{
+    position: relative;
+    float:left;
+    clear:both;
+}
+
+.Meme img{
+    float: left;
+}
