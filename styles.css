@@ -31,3 +31,43 @@
 .Meme img{
     float: left;
 }
+
+#User_Inputs{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+input[type=text]{
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 20%;
+    padding: 7px 10px;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+.shadow{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: grey;
+}
+
+.shadow:hover{
+    opacity: .7;
+}
